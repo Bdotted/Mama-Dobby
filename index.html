@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>For Faith, My Mama ❤️</title>
+  <meta name="description" content="A little piece of Dobby's heart, made for Faith.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="hearts"></div>
+
+  <main>
+    <section class="intro-screen" id="introScreen">
+      <div class="intro-shimmer"></div>
+      <div class="intro-content">
+        <p class="intro-kicker">A message from Dobby</p>
+        <h1 id="introTitle"></h1>
+        <p id="introSub" class="intro-sub"></p>
+        <button id="enterBtn" class="intro-btn" onclick="enterLoveStory()" disabled>Open your surprise ♡</button>
+      </div>
+      <div class="intro-bottom">made with love · just for you</div>
+    </section>
+
+    <section class="hero" id="home">
+      <div class="hero-photo"><img src="images/photo1.jpg" alt="Faith and Dobby"></div>
+      <div class="hero-overlay"></div>
+      <div class="hero-content">
+        <p class="eyebrow">For my Mama ❤️</p>
+        <h1>Faith, this little corner of the internet is <span>just for you.</span></h1>
+        <p class="intro">I wanted to make you something instead of just saying the same words again. So, here is a tiny piece of my heart.</p>
+        <button class="primary" onclick="begin()">Come inside ❤️</button>
+        <p class="tiny">— Dobby</p>
+      </div>
+    </section>
+
+    <div id="content" class="hidden">
+      <section class="section reveal">
+        <p class="eyebrow">01 · Us</p>
+        <h2>My favorite place is wherever I get to be with you.</h2>
+        <div class="scroll-note">↓ keep scrolling, Mama</div><p class="body-copy">It's funny how the simplest things become some of my favorite memories when you're there. A movie. A random conversation. Being completely goofy. Doing absolutely nothing. Somehow, with you, ordinary never feels ordinary.</p>
+
+        <div class="memory-grid">
+          <article class="memory-card large">
+            <img src="images/photo1.jpg" alt="Faith and Dobby together">
+            <div class="card-copy"><span>01</span><h3>Being each other's safe zone.</h3><p>I love knowing that with you, I can just be Dobby. No pretending. No having to have everything figured out. Just us.</p></div>
+          </article>
+          <article class="memory-card">
+            <img src="images/photo2.jpg" alt="A goofy moment together">
+            <div class="card-copy"><span>02</span><h3>Being goofy together.</h3><p>We can be ridiculous and somehow those are the moments I end up loving the most.</p></div>
+          </article>
+          <article class="memory-card">
+            <img src="images/photo3.jpg" alt="A quiet moment together">
+            <div class="card-copy"><span>03</span><h3>Those quiet moments.</h3><p>Sometimes you don't even need to say anything. Just being close is enough.</p></div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section dark reveal">
+        <p class="eyebrow">02 · Our little things</p>
+        <h2>Things that make us, us.</h2>
+        <div class="reasons">
+          <button class="reason" onclick="flip(this)"><span>01</span><strong>Movie nights 🎬</strong><small>Tap me</small><em>Put on a movie, get comfortable, and somehow the movie becomes less important than having you beside me.</em></button>
+          <button class="reason" onclick="flip(this)"><span>02</span><strong>Safe zones 🤍</strong><small>Tap me</small><em>I hope you always know that you can find a safe place in me, just like I've found one in you.</em></button>
+          <button class="reason" onclick="flip(this)"><span>03</span><strong>Our private little world 😅</strong><small>Tap me</small><em>Some memories are ours alone. The silly ones, the close ones, the moments nobody else would understand.</em></button>
+          <button class="reason" onclick="flip(this)"><span>04</span><strong>Being absolute idiots 😂</strong><small>Tap me</small><em>There is something beautiful about being able to laugh, be weird, and not care how ridiculous we look.</em></button>
+        </div>
+      </section>
+
+      <section class="section gallery reveal">
+        <p class="eyebrow">03 · You & me</p>
+        <h2>A few pieces of us.</h2>
+        <div class="photo-wall">
+          <img src="images/photo4.jpg" alt="Faith">
+          <img src="images/photo5.jpg" alt="Faith and Dobby">
+          <img src="images/photo2.jpg" alt="Faith and Dobby being goofy">
+          <img src="images/photo3.jpg" alt="A memory together">
+        </div>
+      </section>
+
+      <section class="section letter reveal">
+        <p class="eyebrow">04 · From Dobby to Mama</p>
+        <div class="paper">
+          <p class="handwritten">My Mama,</p>
+          <p>I don't think I say it enough, but I really do appreciate you. More than just the big things, I appreciate all the little things — the way you make me laugh, the way we can be completely ourselves around each other, and the way being with you can make a bad day feel a little less heavy.</p>
+          <p>We've had our highs and our lows, our serious moments and our absolutely ridiculous ones. We've watched movies together, been each other's safe zones, shared moments that are just ours, and been goofy enough to create memories we'll probably laugh about for years.</p>
+          <p>You have become someone I don't just love, but someone I feel safe with. And that means more to me than I can properly put into words.</p>
+          <p>I made this because I wanted you to have something you could open on a random day and be reminded that somewhere out here, there is a Dobby who loves his Mama very, very much.</p>
+          <p>You are beautiful. You are special. You are important to me. And I hope I never stop giving you reasons to smile.</p>
+          <p>Whatever chapters come next, I'm grateful that you're part of my story.</p>
+          <p class="handwritten">Always your Dobby,<br>❤️</p>
+        </div>
+      </section>
+
+      <section class="section timeline reveal">
+        <p class="eyebrow">05 · Our story</p>
+        <h2>Still writing this one.</h2>
+        <div class="timeline-list">
+          <div><span>♡</span><article><small>One memory</small><h3>Movie nights</h3><p>Two people, one screen, and somehow a thousand little conversations around the movie.</p></article></div>
+          <div><span>♡</span><article><small>Something I treasure</small><h3>Being your safe zone</h3><p>Knowing that we can find comfort in each other is one of the things I value most about us.</p></article></div>
+          <div><span>♡</span><article><small>Definitely us 😅</small><h3>The goofy moments</h3><p>The moments where absolutely nothing makes sense and we are somehow having the best time.</p></article></div>
+          <div><span>♡</span><article><small>Next chapter</small><h3>More memories.</h3><p>This isn't the end of the story. It's just another page.</p></article></div>
+        </div>
+      </section>
+
+      <section class="final reveal">
+        <div class="final-heart">♥</div>
+        <p class="eyebrow">06 · One last thing</p>
+        <h2>Faith, if you ever forget how loved you are...</h2>
+        <p>Come back here and let Dobby remind you. ❤️</p>
+        <button class="primary" onclick="celebrate()">Tap this, Mama ❤️</button>
+        <p id="secret" class="secret"></p>
+      </section>
+    </div>
+  </main>
+
+  <footer>Made by Dobby, for Mama. ♡</footer>
+  <script src="script.js"></script>
+</body>
+</html>
